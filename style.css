@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menu-superior{
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+#texto-menu-superior{
+    margin-left: 150px;
+    margin-top: 35px;
+
+}
+
+#menu-superior{
+    background-image: url(imagens/fundo-menu-superior.svg);
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.icone{
+    padding: 25px;
+    /*margens: superior direita inferior esquerda **/
+    margin: 50px 0px 50px 110px;
+}
+
+.texto-informativo-icones{
+    display: flex;
+    align-items: center;
+}
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    /*margens: superior direita inferior esquerda **/
+    margin: 50px 25px 50px 100px ;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+/*escondendo a seta esquerda e terceiro card**/
+#seta-esquerda{
+    display: none;
+}
+
+#samantha{
+    display: none;
+}
+
+/* posiconado a seta e alterando o cursor**/
+.seta{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/*Adcionando animação ao cursor**/
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+/*Editar todos os inputs e botões através da própria tag**/
+
+input{
+    Width: 300px;
+    Height: 50px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #EAECE5;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    color: #FFFFFF;
+    Width: 250px;
+    Height: 50px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    /*Fonte em negrito**/
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #62abca;
+    color: white;
+    transform: translateY(-7px);
+    /*Adicionar sombra ao botão**/
+    box-shadow: 0px 15px 20px #62abcab0;
+    transition-duration: 0,5s;
+}
